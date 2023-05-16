@@ -1,4 +1,5 @@
 module.exports = {
+    token: Process.env.RENOVATE_TOKEN,
     username: "cdc-coe-botfrey[bot]",
     gitAuthor: "Self-hosted Renovate Bot <123456+cdc-coe-botfrey[bot]@users.noreply.github.enterprise.com>",
     platform: 'github',
@@ -9,6 +10,13 @@ module.exports = {
     labels: ["renovatebot"],
     // schedule: ["every weekend"],
     packageRules: [
+        
+        {
+            matchUpdateTypes: ["minor", "patch", "pin","lockFileMaintenance"],
+            automerge: true
+
+        },
+        
         {
             matchPackageNames: ["hashicorp/terraform"],
             groupName: "terraform",
@@ -18,17 +26,9 @@ module.exports = {
     enabledManagers: ["terraform"],
     lockFileMaintenance: {
         enabled: true,
-        automerge: true
+        
     },
     updateLockFiles: true,
-    minor: {
-        automerge: true
-    },
-    patch: {
-        automerge: true
-    },
-    pin: {
-        automerge: true
-    },
-    repositories: ['cdcent/data-exchange-infra','cdcent/cdc-coe-emmanuel-test-repo'],
-};
+    
+    repositories: ['bertrandmbanwi/renovatebot'],
+}
