@@ -1,9 +1,19 @@
 {
-  "dependencies": {
-    "renovate": "^35.25.0",
-    "underscore": "^1.12.1"
-  },
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My Test App",
+  "main": "index.js",
   "scripts": {
-    "renovate": "renovate --token $(./get-github-app-token.sh)"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "7.10.0",
+    "webpack": "4.44.2"
   }
 }
