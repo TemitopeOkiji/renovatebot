@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "renovate": "^35.25.3"
+    "renovate": "^37.4.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment":"^2.29.1"
   },
   "scripts": {
     "renovate": "renovate --token $(./get-github-app-token.sh)"
