@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "renovate": "^35.95.1",
-    "express": "^4.17.1",
+    "renovate": "^37.4.0",
+    "express": "^4.16.1",
     "lodash": "^4.17.21",
     "moment":"^2.29.1"
   },
