@@ -1,10 +1,9 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "automerge": true,
-  "automergeType": "pr",
-  "prApproval": true,
-  "prConcurrentLimit": 1,
-  "prTargetBranch": "main"
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
