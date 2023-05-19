@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "my-package": "^1.0.0"
+    "my-package": "^0.0.0"
   },
   "scripts": {
     "start": "node index.js"
