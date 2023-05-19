@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "example-package": "10.10.10"
+    "example-package": "11.11.11"
   },
   "scripts": {
     "renovate": "renovate --token $(./get-github-app-token.sh)"
