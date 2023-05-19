@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "renovate": "^32.15.0",
+    "renovate": "^32.17.0",
     "axios": "^0.24.0"
   },
   "devDependencies": {
