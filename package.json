@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "renovate": "^35.25.0"
+    "my-package": "^1.0.0"
   },
   "scripts": {
-    "renovate": "renovate --token $(./get-github-app-token.sh)"
+    "start": "node index.js"
   }
 }
