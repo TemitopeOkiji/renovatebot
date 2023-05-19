@@ -9,13 +9,3 @@
   ]
 }
 
-{
-  "extends": [
-    "config:base"
-  ],
-  "automerge": true,
-  "automergeType": "pr",
-  "prTargetBranch": "main",
-  "prConcurrentLimit": 1
-}
-
