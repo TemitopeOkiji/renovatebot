@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "renovate": "^35.25.0"
+    "renovate": "^31.0.0"
   },
   "scripts": {
     "renovate": "renovate --token $(./get-github-app-token.sh)"
